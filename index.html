@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Wikipedia-search</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico:400" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+       <div class="container main">
+  <!-- fancy page title -->
+  <div class="row">
+    <i id="twitter" class="pull-right fa fa-twitter text-primary">
+    </i>
+    <h1 id="title" class="text-primary text-center">Random Quotations</h1>
+  </div>
+
+  <!-- quote main content -->
+  <div class="row">
+    <div id="quote-box">
+      <blockquote id="quote-block">
+        <p id="quote">It seems JavaScript isn't working. That's sad. We use JavaScript to cycle through the quotes.</p>
+        <!-- tweet button -->
+        <a href="https://twitter.com/intent/tweet?text=" class="twitter-hashtag-button pull-right">Tweet this quote!</a>
+        <!-- author -->
+        <footer><cite title="Source Title" id="author">The Developer</cite></footer>
+      </blockquote>
+    </div>
+  </div>
+
+  <!--new quote button-->
+  <div class="row">
+    <button id="new-quote" class="pull-right btn btn-block btn-lg btn-primary">Random Quote (Press Space) <i class="glyphicon glyphicon-random"></i></button>
+  </div>
+</div>
+
+<!-- footer credits -->
+<footer >
+  <strong><p class="text-center">Coded With<i class="fa fa-heart icon"></i> By<a href="https://forum.freecodecamp.com/u/SurendraVidiyala/activity" target="_blank"> Surendra Vidiyala</a></p></strong>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="js/main.js"></script>
+    </body>
+</html>
