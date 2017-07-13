@@ -1,0 +1,47 @@
+body {padding:50px;
+  background: skyblue url("http://res.cloudinary.com/surendravidiyala/image/upload/v1498497641/peacefullness_arw3fq.jpg") fixed repeat center center;
+  background-size:cover;
+}
+
+.main { margin-top: 100px; }
+
+.container {
+  max-width: 600px;
+  background: #fff;
+  height: 100%;
+  padding: 20px 50px;
+  margin-bottom: 1em;
+  border: 2px #cde solid;
+  border-radius: 10px;
+}
+
+#title {
+  font-family: "Pacifico", Helvetica, Arial, sans-serif;
+  font-size: 3.5em;
+  padding-bottom: 0.5em;
+}
+
+#twitter {
+  font-size: 40px;
+  margin-top: 0.5em;
+}
+#quote-box {
+  min-height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#quote-block{
+  position: relative;
+}
+
+#quote {
+  font-size: 16px;
+}
+.icon{color:red;}
+footer p {
+  position: absolute;
+  left: 40vw;
+  bottom: 0;
+  text-align: center;
+}
